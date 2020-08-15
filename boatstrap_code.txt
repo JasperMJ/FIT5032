@@ -1,0 +1,48 @@
+
+@{
+    ViewBag.Title = "myView";
+}
+
+<h2>myView</h2>
+<p>This is my view.</p>
+<div class="row">
+    <div class="col-8">Content 1</div>
+    <div class="col-4">Content 2</div>
+    <div class="col-md-8">Content 3</div>
+    
+</div>
+
+
+
+@{
+    ViewBag.Title = "boatstrap_example1";
+}
+
+<h2>boatstrap_example1</h2>
+<p>this is boatstrap example1.</p>
+<div class="row">
+    <div class="col-12 col-sm-6 col-md-8">Content 1</div>
+    <div class="col-6 col-md-4">Content 2</div>
+</div>
+
+
+
+@{
+    ViewBag.Title = "try_it_myself";
+}
+<div class="row">
+    <div class="col-sm">col-sm</div>
+    <div class="col-sm">col-sm</div>
+    <div class="col-sm">col-sm</div>
+</div>
+<div class="row">
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
+</div>
+<div class="row">
+    <div class="col-xl-1 col-xs-offset-4">try</div>
+    
+</div>
+<h2>try_it_myself</h2>
+<p>try it myself.</p>
+
